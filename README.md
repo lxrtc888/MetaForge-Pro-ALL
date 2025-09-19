@@ -1,6 +1,6 @@
 # 🌊 MetaForge Pro — A Standard Framework for AI Multi‑Agent Collaboration
 
-**Language / 语言**: [![中文](https://img.shields.io/badge/lang-中文-red.svg)](README.cn.md) [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.en.md)
+**Language / 语言**: [![中文](https://img.shields.io/badge/lang-中文-red.svg)](README.cn.md) [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
 
 [![Contact](https://img.shields.io/badge/Contact-lxrtc8%40gmail.com-blue.svg)](mailto:lxrtc8@gmail.com) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-green.svg)](LICENSE) [![CI](https://github.com/lxrtc888/MetaForge-Pro-ALL/actions/workflows/ci.yml/badge.svg)](https://github.com/lxrtc888/MetaForge-Pro-ALL/actions/workflows/ci.yml) [![Stars](https://img.shields.io/github/stars/lxrtc888/MetaForge-Pro-ALL?style=social)](https://github.com/lxrtc888/MetaForge-Pro-ALL/stargazers) [![Open in Codespaces](https://img.shields.io/badge/Open%20in-Codespaces-2f80ed?logo=github)](https://codespaces.new/lxrtc888/MetaForge-Pro-ALL) [![Open in Gitpod](https://img.shields.io/badge/Open%20in-Gitpod-f06611?logo=gitpod)](https://gitpod.io/#https://github.com/lxrtc888/MetaForge-Pro-ALL)
 
