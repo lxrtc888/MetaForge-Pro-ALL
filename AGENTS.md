@@ -21,7 +21,6 @@ Both scripts are interactive by default; use `--yes` or `--skipPrototype` flags 
 
 ### Key caveats
 
-- The `.cursor/` directory referenced throughout the documentation (`ARCHITECTURE.md`, `SETUP.md`, `README.md`) **does not exist** in this repo. The framework's core rules, roles, workflows, and templates are missing.
 - `CONTRIBUTING.md` references `npm install`, `npm run lint`, and `npm run test`, but there is **no `package.json`** in the repository — those commands will fail.
 - The `tools/setup.sh` script is interactive (prompts for user input) and tries to download from a placeholder URL (`https://github.com/your-org/MetaForge-Pro/...`), so it cannot be run non-interactively.
 

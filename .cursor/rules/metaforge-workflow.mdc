@@ -1,0 +1,87 @@
+---
+description: MetaForge 工作流总览 - 框架工作流的入口和导航
+globs: ["**/*"]
+alwaysApply: false
+priority: 750
+---
+
+# 🌟 MetaForge 工作流
+
+> **优先级 750** — 框架工作流的入口规则，连接各组件
+
+## 框架激活
+
+当用户输入启动指令时（如 `🚀 启动MetaForge` 或类似表达），执行以下流程：
+
+### 1. 框架初始化
+- 确认 `.cursor/` 目录结构完整
+- 加载角色定义文件
+- 加载规则引擎
+- 初始化任务状态
+
+### 2. 角色激活
+- 激活产品概念定义师（阶段1）
+- 声明角色身份
+- 开始引导用户
+
+### 3. 状态初始化
+- 设置项目状态为 INIT
+- 创建项目文档目录结构
+- 准备文档模板
+
+## 工作流组件
+
+### 核心规则引擎
+- `metamaster.mdc` — 总协调引擎（优先级 1000）
+- `emergency-helper.mdc` — 应急助手（优先级 999）
+- `core-workflow.mdc` — 核心工作流（优先级 800）
+- `task-state.mdc` — 任务状态管理（优先级 700）
+- `knowledge-system.mdc` — 知识系统（优先级 600）
+
+### 角色系统
+- `roles/pm-product-concept.md` — 产品概念定义师
+- `roles/pm-version-prd.md` — 版本PRD管理师
+- `roles/ai-tech-architect.md` — 技术架构师
+- `roles/ai-full-stack-engineer.md` — 全栈工程师
+- `roles/ai-project-coordinator.md` — 项目协调者
+
+### 模板系统
+- `templates/core-concepts-template.md` — 核心概念模板
+- `templates/coding-standards-template.md` — 代码规范模板
+- `templates/review-checklist-template.md` — 审查清单模板
+- `templates/technical-decision-template.md` — 技术决策模板
+
+### 工作流定义
+- `workflows/development-execution.md` — 开发执行流程
+- `workflows/claudecode-integration.md` — ClaudeCode 融合流程
+
+## 框架配置检查
+
+```yaml
+必需文件检查:
+  - .cursor/QUICK_START.md
+  - .cursor/GOLDEN_PATH.md
+  - .cursor/ROLE_COLLABORATION.md
+  - .cursor/roles/pm-product-concept.md
+  - .cursor/rules/metamaster.mdc
+  - .cursor/templates/core-concepts-template.md
+
+可选文件:
+  - .cursor/rules/claudecode-integration.mdc
+  - .cursor/rules/quality-gate.mdc
+  - .cursor/workflows/*
+```
+
+## 交互约定
+
+### 用户输入处理
+- 支持中英文输入
+- 支持自然语言和指令混合
+- 支持 emoji 和文本指令
+- 不区分大小写
+
+### AI 输出规范
+- 使用清晰的 Markdown 格式
+- 重要信息使用 emoji 标注
+- 提供结构化的选项和建议
+- 使用 Mermaid 图表可视化
